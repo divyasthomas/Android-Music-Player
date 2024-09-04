@@ -23,22 +23,36 @@ A music player  for Android with song playback, navigation, and customizable set
 - Skip Forward and Backward buttons navigate through songs.
 - Song selection starts playback and highlights the selected song.
 
-## Playback Controls:
-- Play/Pause button changes between play and pause icons.
-- Skip buttons move to the next or previous song without changing play/pause state.
-- Loop Indicator shows if the current song will loop. If the loop condition is true, the background of the L is red and the current song will loop when it finishes. Otherwise, the background of the L is white.
-- Shuffle Button randomizes playlist order.
-
-## Seek Bar:
-- Slider to control song playback position.
-- Displays elapsed time and remaining time of the song.
-- Updates in real-time as the user drags the slider.
+![](music_mainpage.png) 
+![](playing_sng.png) 
 
 ## Settings Fragment:
 - Accessed via the gear icon in the action bar.
 - Allows toggling of loop mode with a switch.
 - Displays the number of songs played.
 - Options to save changes (OK) or discard them (Cancel, Back Button).
+
+![](setting_view.png) 
+![](loop_turned_on.png) 
+
+## Playback Controls:
+- Play/Pause button changes between play and pause icons.
+- Skip buttons move to the next or previous song without changing play/pause state.
+- Loop Indicator shows if the current song will loop. If the loop condition is true, the background of the L is red and the current song will loop when it finishes. Otherwise, the background of the L is white.
+- Shuffle Button randomizes playlist order.
+
+![](loop_indicator.png) 
+
+## Seek Bar:
+- Slider to control song playback position.
+- Displays elapsed time and remaining time of the song.
+- Updates in real-time as the user drags the slider.
+
+![](seek_bar.png) 
+
+
+
+
 
 ## Coroutines:
 - Utilized to smoothly update time display and seek bar without blocking the main thread.
